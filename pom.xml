@@ -41,8 +41,8 @@
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
         <configuration>
-	        <simulationClass>src.test.scala.POC</simulationClass>
-	</configuration>
+        <simulationClass>src.test.scala.BasicSimulation</simulationClass>
+        </configuration>
       </plugin>
     </plugins>
   </build>
